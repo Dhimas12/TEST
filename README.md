@@ -2,7 +2,9 @@ Pasos para correr el programa.
 
 EN EL API: 
 
-Simplemente ir a las propiedades del PokeApi.cs Y en DEBUG cambiar el servidor de IIS express al proyecto que es PokeApi. 
+Simplemente ir a las propiedades del PokeApi.cs Y en DEBUG cambiar el servidor de IIS express al proyecto que es PokeApi.  
+
+luego que entre al lado del localhost poner /swagger/index.html
 
 EN EL SPA: 
 
