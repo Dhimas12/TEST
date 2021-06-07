@@ -54,7 +54,7 @@ namespace PokeApi.Controllers
         {
             
 
-            string path = @"c:\temp\Pokemon.txt";
+            string path = @"c:Pokemon.txt";
             System.IO.File.WriteAllText(path, "Detalles del pokemon: " + nombre);
             return File(System.IO.File.ReadAllBytes(path), "application/octet-stream", "Pokemon.txt");
 
